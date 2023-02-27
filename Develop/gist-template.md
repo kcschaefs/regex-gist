@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Gist - Matching a URL
 
-Introductory paragraph (replace this with your text)
+This is an overview of a regular expression for matching a url.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will explain each piece of a regular expression for matching a URL. The regex is as follows:
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 ## Table of Contents
 
